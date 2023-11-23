@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '_variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.navItem {
+    color: $NavbarColorItem;
+    font-size: 16px;
+    font-family:  $navbarFontFamily;
+}
+.badge1{
+  font-family:  $heroFontFamily;
+  font-size: 1.2 rem;
+  color: $pink ;
+}
+.badge2{
+  font-family:  $heroFontFamily;
+    font-size: 1.2 rem;
+  color: $blue ;
+}
+.badge3{
+font-family:  $heroFontFamily;
+  font-size: 1.2 rem;
+  color: $green ;
+}
+.navbar {
+    padding: 0 10rem;
+  }
+  
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav {
+    margin-left: 0;
+  }
+  
+  img.img-fluid.w-80 {
+    margin-right: 1rem;
+  }
+
+  $titresec3 : #242f51;
+$textsec3 : #616368 ;
+.btn-sec3 {
+    background:#f55767;
+    width:150px;
+    height: 60px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight:bold;
+    
+}
+.card-text{
+    font-family: 'Poppins';
+    font-weight:500;
+}
+.card-title{
+    font-family: 'Poppins';
+    font-weight:bolder;
+}
+$largesection3:215px;
+$espacetxt-buth:40 px;
+
+
+
+footer {
+  //position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $footer-background-color;
+  color: $footer-text-color;
+  padding: $footer-padding;
+  height: $footer-height;
+
+  font-family: $footer-font;
+
+  .titleFt {
+    .titleIntWeb {
+      font-weight: $footer-font-weight; 
+      margin-bottom: 4.5rem;   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .menuFt {
+    .d-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .p-2 {
+        padding: 2rem 2rem;
+        margin-right: 1.5rem; // Adjust margin-right for space between menu items
+      }
+    }
+  }
+
+  .iconsFt {
+    margin-top: 3rem; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 2rem;
+      margin-right: 2.6rem; 
+    }
+
+    i:last-child {
+      margin-right: 0; 
+    }
+  }
+}
+
+
+section {
+  min-height: 100vh;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+.btn {
+  background-color: $roseRouger;
+  border-color: $roseRouger;
+  color: $white;
+  font-size: 1rem;
+  border-radius: 3rem;
+  font-family: $heroFontFamily;
+  padding: 1rem 2rem;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  color: $blueMarine;
+  font-family: $heroFontFamily;
+}
+
+.h6 {
+  font-size: 1.1rem;
+  color: $gris;
+}
